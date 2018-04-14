@@ -1,6 +1,6 @@
 {
-    "name": "worker/auth",
-    "description": "Pacote de autenticação do sistema Worker",
+    "name": "worker/user",
+    "description": "Pacote de gerenciamento de usuários do sistema Worker",
     "type": "package",
     "license": "MIT",
     "authors": [
@@ -14,7 +14,7 @@
             "src/migrations"
         ],
         "psr-4": {
-            "Worker\\Auth": ""
+            "Worker\\User": ""
         }
     },
     "config":{
