@@ -1,0 +1,34 @@
+{
+    "name": "renatovaler/Worker",
+    "description": "Gerenciador de contratos de trabalho",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Renato Valer",
+            "email": "renato.valer@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-4": {
+            "Worker\\": "src/"
+        }
+    },
+    "config":{
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+	},
+    "require-dev": {}
+}
